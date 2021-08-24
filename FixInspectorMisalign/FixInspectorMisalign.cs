@@ -8,14 +8,14 @@ using System.Collections.Generic;
 using FrooxEngine;
 using FrooxEngine.LogiX;
 
-namespace Template
+namespace FixInspectorMisalign
 {
-    public class Template : NeosMod
+    public class FixInspectorMisalign : NeosMod
     {
-        public override string Name => "Template";
-        public override string Author => "eia485";
+        public override string Name => "FixInspectorMisalign";
+        public override string Author => "art0007i";
         public override string Version => "1.0.0";
-        public override string Link => "https://github.com/EIA485/NeosTemplate/";
+        public override string Link => "https://github.com/art0007i/FixInspectorMisalign/";
         public override void OnEngineInit()
         {
             Harmony harmony = new Harmony("me.art0007i.FixInspectorMisalign");
