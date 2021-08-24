@@ -17,7 +17,7 @@ namespace FixInspectorMisalign
     {
         public override string Name => "FixInspectorMisalign";
         public override string Author => "art0007i";
-        public override string Version => "1.0.0";
+        public override string Version => "1.0.1";
         public override string Link => "https://github.com/art0007i/FixInspectorMisalign/";
         public override void OnEngineInit()
         {
@@ -70,12 +70,12 @@ namespace FixInspectorMisalign
                         foundIndex = -1;
                     }
                 }
-
+                
                 //This prints the il code, useful for debugging
                 /*
                 for(var i = 0; i < codes.Count; i++)
                 {
-                    UniLog.Log("IL_"+i.ToString("0000") + ": " + codes[i].ToString());
+                    Debug("IL_"+i.ToString("0000") + ": " + codes[i].ToString());
                 }
                 */
                 return codes.AsEnumerable();
