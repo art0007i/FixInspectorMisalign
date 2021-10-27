@@ -1,7 +1,9 @@
+# Inspector misaligment has been fixed and this mod is no longer necessary.
+
 # FixInspectorMisalign
 
 A [NeosModLoader](https://github.com/zkxs/NeosModLoader) mod for [Neos VR](https://neos.com/) that fixes fields like float3 or color being misaligned in the inspector panel.<br>
-This mod was made to fix issue [#2843](https://github.com/Neos-Metaverse/NeosPublic/issues/2843)
+This mod was made to fix issue [#2843](https://github.com/Neos-Metaverse/NeosPublic/issues/2843)<br>
 
 ## Installation
 1. Install [NeosModLoader](https://github.com/zkxs/NeosModLoader).
